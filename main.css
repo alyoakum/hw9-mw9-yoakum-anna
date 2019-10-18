@@ -14,12 +14,13 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 .accordion-headers {
-  height: 50px;
+  height: 40px;
   display: flex;
   align-items: center;
   border-radius: 15px;
   background-color: #f1f8ff;
   margin: 0 auto;
+  margin-bottom: 5px;
   padding: 2%;
   justify-content: space-between;
 }
@@ -30,5 +31,13 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 .accordion-description {
   overflow: hidden;
-  height: 0;
+  height: 0px;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+.accordion-open{
+	height:100px;
+	padding: 20px;
+
 }
