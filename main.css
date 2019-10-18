@@ -7,3 +7,28 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+#accordion {
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.accordion-headers {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #f1f8ff;
+  margin: 0 auto;
+  padding: 2%;
+  justify-content: space-between;
+}
+
+.toggle-indicator {
+  font-size: 28px;
+}
+
+.accordion-description {
+  overflow: hidden;
+  height: 0;
+}
